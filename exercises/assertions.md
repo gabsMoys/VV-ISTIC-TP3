@@ -13,10 +13,10 @@ Answer the following questions:
 ## Answer
 
 1. Les nombres à virgules flottante, de part leur representation binaire (signe,exposant,mantisse) sont approximés.  
-Ainsi la répresentation de 3\*0.4 sera une approximation de (3*0.4) mais ne vaudra pas exactement 1.2.  
-La réprésentation binaire entraine des sortes de residus, ainsi 3*0.4 pourrait valoir quelques chose comme 1.200000001.  
+Ainsi la répresentation de 3\*0.4 sera une approximation de (3\*0.4) mais ne vaudra pas exactement 1.2.  
+La réprésentation binaire entraine des sortes de residus, ainsi 3\*0.4 pourrait valoir quelques chose comme 1.200000001.  
 Pour palier à ceci, il faut preciser un degré de precision dans notre test.  
-Ici une precision à 0.1 suffit -> assertEquals(1.2, 3 * .4, 0.1);  
+Ici une precision à 0.1 suffit -> assertEquals(1.2, 3 \* .4, 0.1);  
 
 2. assertEquals sur deux objet ira utilisera la methode equals qui devrait être rédefinie par ces objets.
 assertSame compare des référence, cela équivaut au comparateur "==".
