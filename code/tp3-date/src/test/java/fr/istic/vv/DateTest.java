@@ -145,7 +145,7 @@ class DateTest {
 	/*
 	 * input type : Date avec depassement sur le jour
 	 * Test exhaustif du depassement sur le jour pour une année bissextile
-	 * Pas besoin de refaire un test exhaustif pour une année non bissextile, seule le depassement
+	 * Pas besoin de refaire un test exhaustif pour une année non bissextile, seul le depassement
 	 * sur fevrier diffère, donc cas particulier testé dans testisValidDate7
 	 */
 	@Test
@@ -166,7 +166,7 @@ class DateTest {
 	/*
 	 * Test de la methode nextDate
 	 * input -> 1/1/2000
-	 * But -> verifier que nextDate renvoit une date valid pour le cas ou l'on incrémente juste le jour
+	 * But -> verifier que nextDate renvoit une date valide pour le cas ou l'on incrémente juste le jour
 	 */
 	@Test
 	public void testNextDate1() {
